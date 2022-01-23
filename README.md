@@ -13,6 +13,7 @@
 
 Code memory (Flash)
 
+```
 ------------------
 Unused Code memory
 ------------------
@@ -38,6 +39,7 @@ Vector Table          ------------------->     Addr of IRQ-N Handler
                                             ----------------------------
                                                   Initial MSP Value
                                             ----------------------------
+```
 
 1. Create an array to hold MSP and handlers addresses.
 ```C
